@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 
-class DataProcessor:
+class DataLock:
     def __init__(self, filename):
         self.filename = filename
         self.expected_columns = ['Участники гражданского оборота',

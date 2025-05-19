@@ -1,8 +1,8 @@
-from ex import DataProcessor
+from ex import DataLock
 
 if __name__ == "__main__":
     input_file = 'var10.csv'
-    processor = DataProcessor(input_file)    
+    processor = DataLock(input_file)    
     processor.read_dataframe()
 
     
